@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -10,26 +10,31 @@
 
 /*Navigation bar*/
 
-#navbar{
+#navbar {
     background: #f9f9f9;
 }
-#logo{
+
+#logo {
     font-size: 36px;
     font-weight: 550;
     color: black;
     text-shadow: 0px 1px 1px black;
     margin-bottom: 5px;
 }
-#logo span{
+
+#logo span {
     color: #ffa500;
 }
-.navbar-toggler span{
+
+.navbar-toggler span {
     color: #ffa500;
 }
-.navbar-nav{
+
+.navbar-nav {
     margin-left: 20px;
 }
-.nav-item .nav-link{
+
+.nav-item .nav-link {
     font-size: 16px;
     font-weight: 550;
     color: black;
@@ -37,11 +42,13 @@
     border-radius: 3px;
     transition: 0.5s ease;
 }
-.nav-item .nav-link:hover{
+
+.nav-item .nav-link:hover {
     background: #ffa500;
     color: white;
 }
-#navbar form button{
+
+#navbar form button {
     background: orange;
     color: white;
     border: none;
@@ -49,50 +56,88 @@
 
 /*Home*/
 
-.home{
+.home {
     width: 100%;
     height: 90vh;
-    background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url(./images/background\ img.png);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.2)), url(./images/background\ img.png);
     background-size: cover;
     background-repeat: no-repeat;
 }
-.home .content{
+
+.home .content {
     text-align: center;
     padding-top: 200px;
 }
-.home .content h5{
+
+.home .content h5 {
     color: white;
     font-size: 38px;
     font-weight: 550;
     text-shadow: 0px 1px 1px black;
 }
-.home .content h1{
+
+.home .content h1 {
     color: white;
     font-size: 70px;
     font-weight: 550;
     text-shadow: 0px 1px 1px black;
     margin-top: 5px;
 }
-.changecontent::after{
+
+.changecontent::after {
     content: ' ';
     color: #ffa500;
     text-shadow: 0px 1px 1px black;
     animation: changetext 10s infinite linear;
 }
-@keyframes changetext{
-    0%{content: " France";}
-    10%{content: " Spain";}
-    20%{content: " India";}
-    30%{content: " Nepal";}
-    40%{content: " Japan";}
-    50%{content: " Israel";}
-    60%{content: " USA";}
-    70%{content: " Turkey";}
-    80%{content: " China";}
-    90%{content: " Chili";}
-    100%{content: " Italy";}
+
+@keyframes changetext {
+    0% {
+        content: " France";
+    }
+
+    10% {
+        content: " Spain";
+    }
+
+    20% {
+        content: " India";
+    }
+
+    30% {
+        content: " Nepal";
+    }
+
+    40% {
+        content: " Japan";
+    }
+
+    50% {
+        content: " Israel";
+    }
+
+    60% {
+        content: " USA";
+    }
+
+    70% {
+        content: " Turkey";
+    }
+
+    80% {
+        content: " China";
+    }
+
+    90% {
+        content: " Chili";
+    }
+
+    100% {
+        content: " Italy";
+    }
 }
-.home .content p{
+
+.home .content p {
     color: white;
     font-size: 15px;
     font-weight: 600;
@@ -100,7 +145,8 @@
     margin-bottom: 30px;
     margin-top: 5px;
 }
-.home .content a{
+
+.home .content a {
     padding: 10px;
     background: white;
     color: black;
@@ -110,7 +156,8 @@
     border-radius: 5px;
     transition: 0.5s;
 }
-.home .content a:hover{
+
+.home .content a:hover {
     background: #ffa500;
     color: white;
 }
@@ -118,26 +165,31 @@
 
 /*Book*/
 
-.book{
+.book {
     background: #f9f9f9;
     padding: 50px;
 }
-.main-text h1{
+
+.main-text h1 {
     text-align: center;
     text-shadow: opx 1px 1px black;
     font-weight: 600;
 }
-.main-text h1 span{
+
+.main-text h1 span {
     color: #ffa500;
 }
-.book .card{
+
+.book .card {
     border-radius: 10px;
     box-shadow: 0px 5px 5px -6px black;
 }
-.book .row{
+
+.book .row {
     margin-top: 30px;
 }
-.book form input{
+
+.book form input {
     padding: 10px;
     color: black;
     border: none;
@@ -146,14 +198,16 @@
     border-radius: 10px;
     box-shadow: 0px 5px 5px -6px black;
 }
-.book form textarea{
+
+.book form textarea {
     border: none;
     border-radius: 10px;
     resize: none;
     box-shadow: 0px 5px 5px -6px black;
     height: 200px;
 }
-.book .submit{
+
+.book .submit {
     width: 160px;
     font-size: 16px;
     font-weight: 550;
@@ -162,50 +216,61 @@
     margin-top: 10px;
     transition: 0.5s;
 }
-.book .submit:hover{
+
+.book .submit:hover {
     width: 170px;
 }
 
 /*Packages*/
 
 
-.main-txt h1{
+.main-txt h1 {
     text-align: center;
     margin-top: 30px;
     font-weight: 600;
     text-shadow: 0px 1px 1px black;
 }
-.main-txt h1 span{
+
+.main-txt h1 span {
     color: #ffa500;
 }
-.packages .card{
+
+.packages .card {
     border-radius: 5px;
     border: none;
-    box-shadow: rgba(0,0,0,0.1) 0px 4px 12px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
 }
-.packages .card img{
+
+.packages .card img {
     border-radius: 5px;
 }
-.packages .card .card-body{
+
+.packages .card .card-body {
     background: transparent;
 }
-.packages .card .card-body h3{
+
+.packages .card .card-body h3 {
     font-size: 25px;
     font-weight: 600;
 }
-.packages .card .card-body p{
+
+.packages .card .card-body p {
     font-size: 15px;
 }
-.checked{
+
+.checked {
     color: #ffa500;
 }
-.star i{
+
+.star i {
     font-size: 15px;
 }
-.packages .card .card-body h6{
+
+.packages .card .card-body h6 {
     font-size: 20px;
 }
-.packages .card .card-body a{
+
+.packages .card .card-body a {
     padding: 10px;
     text-decoration: none;
     background: #ffa500;
@@ -215,68 +280,170 @@
 
 /*Services*/
 
-.services{
+.services {
     background: #f9f9f9;
     margin-top: 50px;
 }
-.services .card{
-    box-shadow: rgba(0,0,0,0.1) 0px 4px 12px;
+
+.services .card {
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
     border: none;
     cursor: pointer;
 }
-.services .card i{
+
+.services .card i {
     font-size: 80px;
     text-align: center;
     color: #ffa500;
     margin-top: 20px;
 }
-.services .card .card-body h3{
+
+.services .card .card-body h3 {
     font-weight: 600;
 }
-.services .card .card-body{
+
+.services .card .card-body {
     text-align: center;
 }
 
 /*Gallary*/
 
-.gallary{
+.gallary {
     margin-top: 50px;
 }
-.gallary .card{
+
+.gallary .card {
     border-radius: 10px;
-    box-shadow: rgba(0,0,0,0.1) 0px 4px 12px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
     cursor: pointer;
+    margin-bottom: 15px;
 }
-.gallary .card img{
+
+.gallary .card img {
     border-radius: 10px;
     transition: 0.5s;
 }
-.gallary .card img:hover{
+
+.gallary .card img:hover {
     transform: scale(1.1);
 }
 
+.wrapper {
+    padding: 20px;
+    position: relative;
+    width: 100%;
+    height: auto;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    justify-content: center;
+    -ms-align-items: center;
+    align-items: center;
+}
+
+.slider {
+    position: relative;
+    overflow: hidden;
+    max-width: 900px;
+    height: auto;
+}
+
+.slider-items {
+    width: 300%;
+    height: 100%;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+}
+
+.slider-items .item {
+    width: 33.3%;
+    -webkit-transition: 0.7s;
+    -o-transition: 0.7s;
+    transition: 0.7s;
+
+}
+
+.slider-items .item img {
+    max-width: 100%;
+    height: auto;
+}
+
+.slider-items input {
+    position: absolute;
+    visibility: hidden;
+}
+
+.slider-nav {
+    position: absolute;
+    bottom: 25px;
+    width: 100%;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    justify-content: center;
+}
+
+.slider-nav .slider-nav-item {
+    width: 60px;
+    height: 15px;
+    border: 2px solid #ffa500;
+    margin: 7px;
+    cursor: pointer;
+    transition: all 0.5s ease;
+    -webkit-transition: all 0.5 ease;
+    -o-transition: all 0.5 ease;
+}
+
+.slider-nav .slider-nav-item:hover {
+    background-color: #ffa500;
+}
+
+#s1:checked~.s1 {
+    margin-left: 0;
+}
+
+#s2:checked~.s1 {
+    margin-left: -33.333%;
+}
+
+#s3:checked~.s1 {
+    margin-left: -66.6666%;
+}
 
 /*About*/
 
-.about{
+.about {
     padding: 50px;
+    padding-bottom: 0;
     margin-top: 50px;
     background: #f9f9f9;
 }
-.about .card{
+
+.about .card {
     border-radius: 10px;
 }
-.about .card img{
+
+.about .card img {
     border-radius: 10px;
 }
-.about h2{
+
+.about h2 {
     font-weight: 600;
     letter-spacing: 1px;
 }
-.about p{
+
+.about p {
     font-weight: 500;
 }
-#about-btn{
+
+#about-btn {
     width: 150px;
     height: 38px;
     border: none;
@@ -288,34 +455,89 @@
     transition: 0.5s ease;
     cursor: pointer;
 }
-#about-btn:hover{
+
+#about-btn:hover {
     width: 170px;
 }
 
-@media(max-width:850px){
-    .home{
+
+/*Footer*/
+
+#footer {
+    width: 100%;
+    margin-top: 150px;
+    text-align: center;
+    background: #f9f9f9;
+}
+
+#footer h1 {
+    font-weight: 600;
+    padding-top: 30px;
+    text-shadow: 0px 0px 1px black;
+}
+
+#footer h1 span {
+    color: #ffa500;
+}
+
+.social-links i {
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 20px;
+    background: black;
+    color: white;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+
+.social-links i:hover {
+    background: #ffa500;
+}
+
+.credit p {
+    font-size: 10px;
+    font-family: "Lora";
+    font-style: italic;
+    font-weight: 300;
+    text-align: center;
+    padding-bottom: 0;
+    line-height: 3px;
+}
+
+/*Adaptation*/
+
+@media(max-width:850px) {
+    .home {
         background-position: 50%;
     }
 }
-@media(max-width:450px){
-    .home .content h5{
+
+@media(max-width:450px) {
+    .home .content h5 {
         font-size: 25px;
     }
-    .home .content h1{
+
+    .home .content h1 {
         font-size: 38px
     }
-    .home .content p{
+
+    .home .content p {
         font-size: 13px;
     }
 }
-@media(max-width:765px){
-    .book{
+
+@media(max-width:765px) {
+    .book {
         padding: 0;
     }
-    .main-text h1{
-        padding:  20px;
+
+    .main-text h1 {
+        padding: 20px;
     }
-    .about{
+
+    .about {
         padding: 0;
     }
 }

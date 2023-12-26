@@ -23,11 +23,11 @@
 }
 
 #logo span {
-    color: #ffa500;
+    color: greenyellow;
 }
 
 .navbar-toggler span {
-    color: #ffa500;
+    color: greenyellow;
 }
 
 .navbar-nav {
@@ -44,16 +44,15 @@
 }
 
 .nav-item .nav-link:hover {
-    background: #ffa500;
+    background: greenyellow;
     color: white;
 }
 
 #navbar form button {
-    background: orange;
+    background: greenyellow;
     color: white;
     border: none;
 }
-
 /*Home*/
 
 .home {
@@ -86,7 +85,7 @@
 
 .changecontent::after {
     content: ' ';
-    color: #ffa500;
+    color: greenyellow;
     text-shadow: 0px 1px 1px black;
     animation: changetext 10s infinite linear;
 }
@@ -158,7 +157,7 @@
 }
 
 .home .content a:hover {
-    background: #ffa500;
+    background: greenyellow;
     color: white;
 }
 
@@ -177,7 +176,7 @@
 }
 
 .main-text h1 span {
-    color: #ffa500;
+    color: greenyellow;
 }
 
 .book .card {
@@ -211,7 +210,7 @@
     width: 160px;
     font-size: 16px;
     font-weight: 550;
-    background: #ffa500;
+    background: greenyellow;
     color: white;
     margin-top: 10px;
     transition: 0.5s;
@@ -232,7 +231,7 @@
 }
 
 .main-txt h1 span {
-    color: #ffa500;
+    color: greenyellow;
 }
 
 .packages .card {
@@ -252,6 +251,7 @@
 .packages .card .card-body h3 {
     font-size: 25px;
     font-weight: 600;
+    text-align: justify;
 }
 
 .packages .card .card-body p {
@@ -259,7 +259,7 @@
 }
 
 .checked {
-    color: #ffa500;
+    color: gold;
 }
 
 .star i {
@@ -273,7 +273,7 @@
 .packages .card .card-body a {
     padding: 10px;
     text-decoration: none;
-    background: #ffa500;
+    background: greenyellow;
     color: white;
     border-radius: 5px;
 }
@@ -294,7 +294,7 @@
 .services .card i {
     font-size: 80px;
     text-align: center;
-    color: #ffa500;
+    color: greenyellow;
     margin-top: 20px;
 }
 
@@ -393,7 +393,7 @@
 .slider-nav .slider-nav-item {
     width: 60px;
     height: 15px;
-    border: 2px solid #ffa500;
+    border: 2px solid greenyellow;
     margin: 7px;
     cursor: pointer;
     transition: all 0.5s ease;
@@ -402,7 +402,7 @@
 }
 
 .slider-nav .slider-nav-item:hover {
-    background-color: #ffa500;
+    background-color: greenyellow;
 }
 
 #s1:checked~.s1 {
@@ -448,7 +448,7 @@
     height: 38px;
     border: none;
     border-radius: 5px;
-    background: #ffa500;
+    background: greenyellow;
     color: white;
     letter-spacing: 2px;
     font-weight: 550;
@@ -477,7 +477,7 @@
 }
 
 #footer h1 span {
-    color: #ffa500;
+    color: greenyellow;
 }
 
 .social-links i {
@@ -493,7 +493,7 @@
 }
 
 .social-links i:hover {
-    background: #ffa500;
+    background: greenyellow;
 }
 
 .credit p {
@@ -539,5 +539,59 @@
 
     .about {
         padding: 0;
+    }
+}
+
+/*Europe*/
+.changecontent_eu::after {
+    content: ' ';
+    color: greenyellow;
+    text-shadow: 0px 1px 1px black;
+    animation: change 10s infinite linear;
+}
+
+@keyframes change {
+    0% {
+        content: " Albania";
+    }
+
+    10% {
+        content: " Bulgaria";
+    }
+
+    20% {
+        content: " Vatican";
+    }
+
+    30% {
+        content: " Hungary";
+    }
+
+    40% {
+        content: " Greece";
+    }
+
+    50% {
+        content: " Ireland";
+    }
+
+    60% {
+        content: " Denmark";
+    }
+
+    70% {
+        content: " Kosovo";
+    }
+
+    80% {
+        content: " Iceland";
+    }
+
+    90% {
+        content: " Moldova";
+    }
+
+    100% {
+        content: " Latvia";
     }
 }

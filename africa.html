@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Wind</title>
+    <link rel="icon" type="images/x-icon" href="/images/plane.ico">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+        integrity="sha512-Avb2QiuDEEvB4bZJYdft2mNjVShBftLdPG8FJ0V7irTLQ8Uo0qcPxh4Plq7G5tGm0rU+1SPhVotteLpBERwTkw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora&family=Roboto:wght@500&display=swap" rel="stylesheet">
+</head>
+
+<nav class="navbar navbar-expand-lg fixed-top" id="navbar">
+    <div class="container">
+        <a class="navbar-brand" href="index.html" id="logo"><span>T</span>ravel <span>W</span>ind</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+            <span><i class="fa-solid fa-bars"></i></span>
+        </button>
+        <div class="collapse navbar-collapse" id="mynavbar">
+            <ul class="navbar-nav me-auto">
+                <li class="nav-item">
+                    <a class="nav-link active" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#book">Book</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#packages">Packages</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#services">Services</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#gallary">Gallery</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">About</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        Parts of the world
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="europe.html">Europe</a></li>
+                        <li><a class="dropdown-item" href="africa.html">Africa</a></li>
+                        <li><a class="dropdown-item" href="#">Asia</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <form class="d-flex">
+                <input class="form-control me-2" type="text" placeholder="Search">
+                <button class="btn btn-primary" type="button">Search</button>
+            </form>
+        </div>
+    </div>
+</nav>
+
+
+<div class="home">
+    <div class="content">
+        <h5>Welcome to Africa</h5>
+        <h1>Visit<span class="changecontent_af"></span></h1>
+        <p>We are glad to welcome you to Travel Wind! Discover the culture and sights of different parts of the world
+            with us!</p>
+        <a href="#book">Book Place</a>
+    </div>
+</div>
+
+
+<section class="book" id="book">
+    <div class="container">
+
+        <div class="main-text">
+            <h1><span>B</span>ook</h1>
+        </div>
+
+        <div class="row">
+            <div class="col-md-6 py-3 py-md-0">
+                <div class="card">
+                    <img src="./images/book-img.png">
+                </div>
+            </div>
+
+            <div class="col-md-6 py-3 py-md-0">
+                <form action="#">
+                    <input type="text" class="form-control" placeholder="Where To" required><br>
+                    <input type="text" class="form-control" placeholder="How Many" required><br>
+                    <input type="date" class="form-control" placeholder="Arrivals" required><br>
+                    <input type="date" class="form-control" placeholder="Leaving" required><br>
+                    <textarea class="form-control" rows="5" name="text"
+                        placeholder="Enter Your Name & Details"></textarea>
+                    <input type="submit" value="Book Now" class="submit" required>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section class="packages" id="packages">
+    <div class="container">
+        <div class="main-txt">
+            <h1><span>P</span>ackages</h1>
+        </div>
+
+        <div class="row" style="margin-top: 30px;">
+
+            <div class="col-md-4 py-3 py-md-0">
+                <div class="card">
+                    <img src="./images/yar.jpg">
+                    <div class="card-body">
+                        <h3>South Africa</h3>
+                        <p>South Africa is a land of contrasts, where modern cities such as Cape Town and Johannesburg
+                            intertwine with the wilderness of national parks and the amazing beaches of Durban.</p>
+                        <div class="star">
+                            <i class="fa-solid fa-star checked"></i>
+                            <i class="fa-solid fa-star checked"></i>
+                            <i class="fa-solid fa-star checked"></i>
+                            <i class="fa-solid fa-star "></i>
+                            <i class="fa-solid fa-star "></i>
+                        </div>
+                        <h6>Price: <strong>$300</strong></h6>
+                        <a href="#book">Book Now</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 py-3 py-md-0">
+                <div class="card">
+                    <img src="./images/maroko.jpg">
+                    <div class="card-body">
+                        <h3>Morocco</h3>
+                        <p>Morocco is a magical land with oriental charm, where medieval cities such as Fez and
+                            Marrakesh meet the mystical Sahara Desert and Atlas Mountains.</p>
+                        <div class="star">
+                            <i class="fa-solid fa-star checked"></i>
+                            <i class="fa-solid fa-star checked"></i>
+                            <i class="fa-solid fa-star checked"></i>
+                            <i class="fa-solid fa-star "></i>
+                            <i class="fa-solid fa-star "></i>
+                        </div>
+                        <h6>Price: <strong>$250</strong></h6>
+                        <a href="#book">Book Now</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 py-3 py-md-0">
+                <div class="card">
+                    <img src="./images/kenia.jpg">
+                    <div class="card-body">
+                        <h3>Kenya</h3>
+                        <p>Kenya - Land of safari and magnificent nature reserves, where you can meet the Big Five and
+                            enjoy the unique experience of meeting local tribes.</p>
+                        <div class="star">
+                            <i class="fa-solid fa-star checked"></i>
+                            <i class="fa-solid fa-star checked"></i>
+                            <i class="fa-solid fa-star "></i>
+                            <i class="fa-solid fa-star "></i>
+                            <i class="fa-solid fa-star "></i>
+                        </div>
+                        <h6>Price: <strong>$200</strong></h6>
+                        <a href="#book">Book Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="row" style="margin-top: 30px;">
+
+            <div class="col-md-4 py-3 py-md-0">
+                <div class="card">
+                    <img src="./images/egypt.jpg">
+                    <div class="card-body">
+                        <h3>Egypt</h3>
+                        <p>Egypt is a land of pharaohs and ancient culture, where the great pyramids and temples of the
+                            Nile coexist with modern resorts on the Red Sea.</p>
+                        <div class="star">
+                            <i class="fa-solid fa-star checked"></i>
+                            <i class="fa-solid fa-star checked"></i>
+                            <i class="fa-solid fa-star checked"></i>
+                            <i class="fa-solid fa-star checked"></i>
+                            <i class="fa-solid fa-star checked"></i>
+                        </div>
+                        <h6>Price: <strong>$300</strong></h6>
+                        <a href="#book">Book Now</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 py-3 py-md-0">
+                <div class="card">
+                    <img src="./images/tanzania.jpg">
+                    <div class="card-body">
+                        <h3>Tanzania</h3>
+                        <p>Tanzania - The Treasure of East Africa, where Zanzibar's beaches, Mount Kilimanjaro and the
+                            Serenget wilderness create a unique blend of nature and culture.</p>
+                        <div class="star">
+                            <i class="fa-solid fa-star checked"></i>
+                            <i class="fa-solid fa-star checked"></i>
+                            <i class="fa-solid fa-star checked"></i>
+                            <i class="fa-solid fa-star "></i>
+                            <i class="fa-solid fa-star "></i>
+                        </div>
+                        <h6>Price: <strong>$150</strong></h6>
+                        <a href="#book">Book Now</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 py-3 py-md-0">
+                <div class="card">
+                    <img src="./images/gana.jpg">
+                    <div class="card-body">
+                        <h3>Ghana</h3>
+                        <p>Ghana is a West African jewel with historic fortresses, picturesque fishing villages and a
+                            rich traditional culture.</p>
+                        <div class="star">
+                            <i class="fa-solid fa-star checked"></i>
+                            <i class="fa-solid fa-star checked"></i>
+                            <i class="fa-solid fa-star checked"></i>
+                            <i class="fa-solid fa-star checked"></i>
+                            <i class="fa-solid fa-star "></i>
+                        </div>
+                        <h6>Price: <strong>$200</strong></h6>
+                        <a href="#book">Book Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+<section class="services" id="services">
+    <div class="container">
+        <div class="main-txt">
+            <h1><span>S</span>ervices</h1>
+        </div>
+
+        <div class="row" style="margin-top: 30px;">
+
+            <div class="col-md-4 py-3 py-md-0">
+                <div class="card">
+                    <i class="fas fa-hotel"></i>
+                    <div class="card-body">
+                        <h3>Affordable Hotel</h3>
+                        <p>Stay in the best hotels around the world using our bonuses and promotional codes</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 py-3 py-md-0">
+                <div class="card">
+                    <i class="fas fa-utensils"></i>
+                    <div class="card-body">
+                        <h3>Food & Drinks</h3>
+                        <p>Visit the most famous restaurants and taste traditional dishes from around the world</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 py-3 py-md-0">
+                <div class="card">
+                    <i class="fas fa-bullhorn"></i>
+                    <div class="card-body">
+                        <h3>Safty Guide</h3>
+                        <p>Visit the most famous places of the centers of human culture</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row" style="margin-top: 30px;">
+
+            <div class="col-md-4 py-3 py-md-0">
+                <div class="card">
+                    <i class="fas fa-globe-asia"></i>
+                    <div class="card-body">
+                        <h3>Around the World</h3>
+                        <p>Visit the most exotic places on our planet, taking advantage of our special offers</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 py-3 py-md-0">
+                <div class="card">
+                    <i class="fas fa-plane"></i>
+                    <div class="card-body">
+                        <h3>Fastest Travel</h3>
+                        <p>Travel quickly and safely, without transfers or delays with us!</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 py-3 py-md-0">
+                <div class="card">
+                    <i class="fas fa-hiking"></i>
+                    <div class="card-body">
+                        <h3>Adventures</h3>
+                        <p>Visit places where humanity has never set foot before with our guides</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="gallary" id="gallary">
+    <div class="container">
+
+        <div class="main-txt">
+            <h1><span>G</span>allary</h1>
+        </div>
+
+        <div class="row" style="margin-top: 30px;">
+            <div class="col-md-4 py-3 py-md-0">
+                <div class="card">
+                    <img src="/images/af_g1.jpg" height="230px">
+                </div>
+            </div>
+            <div class="col-md-4 py-3 py-md-0">
+                <div class="card">
+                    <img src="/images/af_g2.jpg" height="230px">
+                </div>
+            </div>
+            <div class="col-md-4 py-3 py-md-0">
+                <div class="card">
+                    <img src="/images/af_g3.jpg" height="230px">
+                </div>
+            </div>
+        </div>
+        <div class="row" style="margin-top: 30px;">
+            <div class="col-md-4 py-3 py-md-0">
+                <div class="card">
+                    <img src="/images/af_g4.jpg" height="230px">
+                </div>
+            </div>
+            <div class="col-md-4 py-3 py-md-0">
+                <div class="card">
+                    <img src="/images/af_g5.jpg" height="230px">
+                </div>
+            </div>
+            <div class="col-md-4 py-3 py-md-0">
+                <div class="card">
+                    <img src="/images/af_g6.jpg" height="230px">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="wrapper">
+        <div class="slider">
+            <div class="slider-nav">
+                <label for="s1" class="slider-nav-item"></label>
+                <label for="s2" class="slider-nav-item"></label>
+                <label for="s3" class="slider-nav-item"></label>
+            </div>
+            <div class="slider-items">
+
+                <input type="radio" name="s" id="s1">
+                <input type="radio" name="s" id="s2">
+                <input type="radio" name="s" id="s3">
+                <div class="item s1">
+                    <img src="/images/af_g7.jpg">
+                </div>
+                <div class="item ">
+                    <img src="/images/af_g8.jpg">
+                </div>
+                <div class="item ">
+                    <img src="/images/af_g9.jpg">
+                </div>
+            </div>
+        </div>
+    </div>
+
+</section>
+
+
+<section class="about" id="about">
+    <div class="container">
+        <div class="main-txt">
+            <h1>About<span>Us</span></h1>
+        </div>
+        <div class="row" style="margin-top: 50px;">
+            <div class="col-md-6 py-3 py-md-0">
+                <div class="card">
+                    <img src="/images/about-img.png">
+                </div>
+            </div>
+            <div class="col-md-6 py-3 py-md-0">
+                <h2>How Travel Wind Agency Work</h2>
+                <p>Travel Wind is a travel company that covers the market on several levels, we are a travel company,
+                    but we also connect all the obligations of your comfortable holiday into one system, we have
+                    developed a convenient position for tourists to use in travel, we connect with hotels and
+                    restaurants through a global network in which we participate our promotions and promotional codes
+                    anywhere in the world, and we also select top-class bends especially for you!</p>
+                <button id="about-btn">Read More...</button>
+            </div>
+        </div>
+    </div>
+</section>
+<footer id="footer">
+    <h1><span>T</span>ravel<span>W</span>ind</h1>
+    <p>Plunge into a world of adventure</p>
+    <div class="social-links">
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-youtube"></i>
+        <i class="fa-brands fa-pinterest-p"></i>
+    </div>
+    <div class="credit">
+        <p>Copyright ©2023 All rights reserved</p>
+        <p>This template is made with by <strong>Lesnic Dumitru</strong>, gr. MI21Z</p>
+        <p>"Alecu Russo" State University from Balti</p>
+    </div>
+</footer>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

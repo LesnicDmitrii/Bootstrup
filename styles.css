@@ -595,3 +595,57 @@
         content: " Latvia";
     }
 }
+
+/*Africa*/
+.changecontent_af::after {
+    content: ' ';
+    color: greenyellow;
+    text-shadow: 0px 1px 1px black;
+    animation: chang 10s infinite linear;
+}
+
+@keyframes chang {
+    0% {
+        content: " Burkina Faso";
+    }
+
+    10% {
+        content: " Guinea";
+    }
+
+    20% {
+        content: " Burundi";
+    }
+
+    30% {
+        content: " Egypt";
+    }
+
+    40% {
+        content: " Zambia";
+    }
+
+    50% {
+        content: " Cameroon";
+    }
+
+    60% {
+        content: " Kenya";
+    }
+
+    70% {
+        content: " Congo";
+    }
+
+    80% {
+        content: " Liberia";
+    }
+
+    90% {
+        content: " Madagascar";
+    }
+
+    100% {
+        content: " Tanzania";
+    }
+}

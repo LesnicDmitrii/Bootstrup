@@ -53,6 +53,7 @@
     color: white;
     border: none;
 }
+
 /*Home*/
 
 .home {
@@ -647,5 +648,59 @@
 
     100% {
         content: " Tanzania";
+    }
+}
+
+/*Africa*/
+.changecontent_asia::after {
+    content: ' ';
+    color: greenyellow;
+    text-shadow: 0px 1px 1px black;
+    animation: chan 10s infinite linear;
+}
+
+@keyframes chan {
+    0% {
+        content: " Afghanistan";
+    }
+
+    10% {
+        content: " Bangladesh";
+    }
+
+    20% {
+        content: " Vietnam";
+    }
+
+    30% {
+        content: " Georgia";
+    }
+
+    40% {
+        content: " Jordan";
+    }
+
+    50% {
+        content: " Israel";
+    }
+
+    60% {
+        content: " Iraq";
+    }
+
+    70% {
+        content: " Kazakhstan";
+    }
+
+    80% {
+        content: " Qatar";
+    }
+
+    90% {
+        content: " China";
+    }
+
+    100% {
+        content: " Maldives";
     }
 }

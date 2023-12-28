@@ -53,6 +53,10 @@
     color: white;
     border: none;
 }
+#dropdown-item:hover{
+    background:greenyellow ;
+    color: white;
+}
 
 /*Home*/
 
